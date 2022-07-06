@@ -4,7 +4,7 @@ export default function Header ()
 {
     return (
         <View style={styles.content}>
-            <Text style={styles.text}>Header</Text>
+            <Text style={styles.text}>☁ Add Todos</Text>
         </View>
     );
 }
@@ -12,7 +12,7 @@ export default function Header ()
 const styles = StyleSheet.create({
     content: {
         padding: 20,
-        backgroundColor: 'blueviolet',
+        backgroundColor: 'dodgerblue',
     },
     text: {
         textAlign: 'center',
